@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Adam Smith</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="name">Adam Smith</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="MainPage.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="gallery-header">
+            <h2>Gallery</h2>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-column">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                     alt="Boat on Calm Water">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp" alt="Wintry Mountain Landscape">
+            </div>
+            <div class="gallery-column">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp" alt="Mountains in the Clouds">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                     alt="Boat on Calm Water">
+            </div>
+            <div class="gallery-column">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                     alt="Waves at Sea">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp" alt="Yosemite National Park">
+            </div>
+        </div>
+        <!-- Modal for image enlargement -->
+        <div id="imageModal" class="gallery-modal">
+            <span class="gallery-close">&times;</span>
+            <div class="gallery-modal-content">
+                <img id="modalImg" src="" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section contact">
+                <h2 class="section-title2">Adam Smith</h2>
+            </div>
+            
+            <div class="footer-section contact">
+                <h2 class="section-title">Contact</h2>
+                <ul class="contact-info">
+                    <li><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span> Via Rossini 10, 10136 Turin Italy</li>
+                    <li><span class="contact-icon"><i class="fas fa-phone"></i></span> Phone: (0039) 333 12 68 347</li>
+                    <li><span class="contact-icon"><i class="fas fa-envelope"></i></span> Email: hello@domain.com</li>
+                    <li><span class="contact-icon"><i class="fab fa-skype"></i></span> Skype: you_online</li>
+                </ul>
+            </div>
+            
+            <div class="footer-section follow">
+                <h2 class="section-title">Follow us</h2>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
